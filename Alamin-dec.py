@@ -141,14 +141,7 @@ def main_system():
         os.system('rm -rf token.txt')
 
     os.system('clear')
-    print logo =\033[1;32m
-    _____ _    _       _______                   
-  / ____| |  | |     |__   __|                  
- | (___ | | _| |__      | | ___  __ _ _ __ ___  
-  \___ \| |/ / '_ \     | |/ _ \/ _` | '_ ` _ \ 
-  ____) |   <| |_) |    | |  __/ (_| | | | | | |
- |_____/|_|\_\_.__/     |_|\___|\__,_|_| |_| |_|
-    print ''
+    print logo 
     print 39 * '~'
     print '\x1b[1;93m[1]   Public Cloning      \x1b[1;92m(Login)'
     print '\x1b[1;91m[2]   Random Cloning     \x1b[1;92m (No Login)'
